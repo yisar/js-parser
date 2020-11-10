@@ -105,9 +105,9 @@ function add() {
 
 ```js
 bdoy: [
-  { type:'let', name: 'count', value: '0'},
-  { type: 'function', name: 'add', args: '', body: [
-    { type: 'expression', name: 'count', operator: '++'}
+  { type:'declaration', identifier: 'count', value: '0'},
+  { type: 'function', identifier: 'add', args: '', body: [
+    { type: 'expression', identifier: 'count', operator: '++'}
   ]}
 ]
 ```
